@@ -6,7 +6,7 @@ Contoh output yang diharapkan untuk daftar perguruan tinggi yang berlokasi di DK
  
 ## Solution :
  
- ### Define the function and the file that we will use in this program
+ #### Define the function and the file that we will use in this program
 ```
  int main()
 {
@@ -14,6 +14,5 @@ Contoh output yang diharapkan untuk daftar perguruan tinggi yang berlokasi di DK
     char ch;
     ptr = fopen("data.txt", "r");
 ```
- 
- 
+ #### Prove that ptr is null or not
  
