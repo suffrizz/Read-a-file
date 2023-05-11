@@ -14,5 +14,24 @@ Contoh output yang diharapkan untuk daftar perguruan tinggi yang berlokasi di DK
     char ch;
     ptr = fopen("data.txt", "r");
 ```
- #### Prove that ptr is null or not
+ #### Prove that ptr is null or not to display the list
+ ```
+if (NULL == ptr)
+    {
+        printf("Daftar Perguruan Tinggi di Jawa Barat\n");
+    }
+
+    printf(" 1. Universitas Padjadjaran \n 2. Universitas Singaperbangsa Karawang\n 3. Universitas Siliwangi\n 4. Universitas Pendidikan Indonesia");
+ ```
+ 
+ ### Use the loop function to read characters from the file that ptr points to and use the function to print the file
+ ```
+ do
+    {
+        ch = fgetc(ptr);
+        printf("%c", ch);
+
+    } while (ch != EOF);
+```
+ 
  
