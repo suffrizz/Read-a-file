@@ -24,7 +24,7 @@ if (NULL == ptr)
     printf(" 1. Universitas Padjadjaran \n 2. Universitas Singaperbangsa Karawang\n 3. Universitas Siliwangi\n 4. Universitas Pendidikan Indonesia");
  ```
  
- ### Use the loop function to read characters from the file that ptr points to and use the function to print the file
+ #### Use the loop function to read characters from the file that ptr points to and use the function to print the file
  ```
  do
     {
